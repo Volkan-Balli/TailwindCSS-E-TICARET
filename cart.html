@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana Sayfa</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-gray-800 text-white p-5">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">E-Ticaret</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="index.html" class="hover:text-indigo-500">Ana Sayfa</a></li>
+                    <li><a href="products.html" class="hover:text-indigo-500">Ürünler</a></li>
+                    <li><a href="cart.html" class="hover:text-indigo-500">Sepet</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="py-10 bg-gray-50">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-semibold text-center mb-8">Öne Çıkan Ürünler</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <!-- Kart 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+                    <img src="https://via.placeholder.com/300x200" alt="Ürün Resmi"
+                        class="w-full h-48 object-cover rounded-lg mb-4">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Ürün Adı</h3>
+                    <p class="text-lg font-semibold text-indigo-600 mb-4">₺250.00</p>
+                    <a href="#">
+                        <p class="text-red-500">Kaldır</p>
+                    </a>
+
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+                    <img src="https://via.placeholder.com/300x200" alt="Ürün Resmi"
+                        class="w-full h-48 object-cover rounded-lg mb-4">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Ürün Adı</h3>
+                    <p class="text-lg font-semibold text-indigo-600 mb-4">₺250.00</p>
+                    <a href="#">
+                        <p class="text-red-500">Kaldır</p>
+                    </a>
+
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+                    <img src="https://via.placeholder.com/300x200" alt="Ürün Resmi"
+                        class="w-full h-48 object-cover rounded-lg mb-4">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Ürün Adı</h3>
+                    <p class="text-lg font-semibold text-indigo-600 mb-4">₺250.00</p>
+                    <a href="#">
+                        <p class="text-red-500">Kaldır</p>
+                    </a>
+
+                </div>
+            </div>
+    </section>
+    <h2 class="text-3xl font-semibold mb-8">TOPLAM:600TL</h2>
+
+</body>
+
+</html>
