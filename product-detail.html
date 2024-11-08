@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana Sayfa</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-gray-800 text-white p-5">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">E-Ticaret</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="index.html" class="hover:text-indigo-500">Ana Sayfa</a></li>
+                    <li><a href="products.html" class="hover:text-indigo-500">Ürünler</a></li>
+                    <li><a href="cart.html" class="hover:text-indigo-500">Sepet</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="py-10 bg-gray-50">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-semibold text-center mb-8">Öne Çıkan Ürünler</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Kart 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+                    <img src="https://via.placeholder.com/300x200" alt="Ürün Resmi" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Ürün Adı</h3>
+                    <p class="text-gray-600 mb-4">Kısa ürün açıklaması burada yer alır. Detaylı bilgi için tıklayın.</p>
+                    <p class="text-lg font-semibold text-indigo-600 mb-4">₺200.00</p>
+                    <!-- Butonları Ortalamak İçin Flex ve Center Kullanımı -->
+                    <div class="flex justify-center items-center">
+                        <!-- Sepete Ekle Butonu -->
+                        <a href="sepet.html"><button class="inline-block px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 transition-colors"> Sepete Ekle</button></a>
+                    </div>
+                </div>
+
+                <!-- Kart 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+                    <img src="https://via.placeholder.com/300x200" alt="Ürün Resmi" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Ürün Adı</h3>
+                    <p class="text-gray-600 mb-4">Kısa ürün açıklaması burada yer alır. Detaylı bilgi için tıklayın.</p>
+                    <p class="text-lg font-semibold text-indigo-600 mb-4">₺150.00</p>
+                    <!-- Butonları Ortalamak İçin Flex ve Center Kullanımı -->
+                    <div class="flex justify-center items-center">
+                        <!-- Sepete Ekle Butonu -->
+                        <a href="sepet.html"><button class="inline-block px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 transition-colors"> Sepete Ekle</button></a>
+                    </div>
+                </div>
+
+                <!-- Kart 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+                    <img src="https://via.placeholder.com/300x200" alt="Ürün Resmi" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Ürün Adı</h3>
+                    <p class="text-gray-600 mb-4">Kısa ürün açıklaması burada yer alır. Detaylı bilgi için tıklayın.</p>
+                    <p class="text-lg font-semibold text-indigo-600 mb-4">₺250.00</p>
+                    <div class="flex justify-center items-center">
+                        <!-- Sepete Ekle Butonu -->
+                        <a href="sepet.html"><button class="inline-block px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 transition-colors"> Sepete Ekle</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
